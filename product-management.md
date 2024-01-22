@@ -355,7 +355,7 @@ Feedback Loop: Offers immediate learning about what works and what doesn't, allo
 Builds Momentum: An MVP can help in securing early adopters, generating interest, and potentially attracting investors.
 > In summary, an MVP is about finding a balance between what is feasible to build, what can satisfy early adopters, and what can provide critical learning for future development. It's a strategy that aligns product development with customer needs, reducing time and resources spent on unproven ideas.
 
-# product backlog MVP
+## product backlog MVP
 Combining the concepts of a Product Backlog and a Minimum Viable Product (MVP) is a crucial aspect of Agile development, particularly in the context of building new products or features.
 
 ### Product Backlog
@@ -383,7 +383,7 @@ Post-launch, based on user feedback and the app's performance in the market, the
 > In summary, the product backlog is a tool for managing and prioritizing the work required to develop a product, while the MVP is about identifying the most critical aspects of that product to develop first. The MVP approach allows for testing hypotheses about a product with minimal risk, and the product backlog facilitates the ongoing development and refinement of the product based on real-world feedback and business objectives.
 
 
-# eg for a shopping web site
+## eg for a shopping web site
 Let's consider the development of a shopping website using the concepts of a Product Backlog and an MVP (Minimum Viable Product). The company in this example is a startup planning to launch an online platform for selling artisanal, handcrafted goods.
 
 ### Product Backlog for the Shopping Website
@@ -427,7 +427,7 @@ After the MVP is launched and user feedback starts coming in, the team would rev
 - Wishlist Functionality
 > This approach ensures that the development effort is aligned with actual user needs and market demands, improving the chances of the website's success in the competitive e-commerce space. By continuously iterating based on user feedback and market trends, the shopping website can evolve to meet customer needs effectively while growing the business.
 
-# DEEP - product backlog
+## DEEP - product backlog
 The acronym DEEP, in the context of a product backlog, is a set of criteria that describes the ideal characteristics of items in the product backlog in Agile and Scrum frameworks. DEEP stands for Detailed Appropriately, Emergent, Estimated, and Prioritized. Let's break down each of these characteristics:
 
 ### 1. Detailed Appropriately
@@ -471,14 +471,14 @@ Estimated
 - High Priority: "Implement a secure user login and registration system" and "Optimize website for mobile users" are at the top of the backlog, prioritized for immediate development to enhance security and user accessibility.
 - Lower Priority: "Develop a community forum for book discussions" is lower in the backlog, deemed important but not urgent.
 ### Applying DEEP in Sprint Planning
-During sprint planning, the BookNest team would look at the top of their backlog, focusing on the detailed and high-priority items like the secure login system and mobile optimization. These items have been estimated, allowing the team to assess their capacity and commit to a realistic amount of work for the sprint.
+During sprint planning, the BookNest team would look at the top of their backlog, focusing on the detailed and high-priority items like the secure login system and mobile optimization. These items have been estimated, allowing the team to assess their capacity and commit to a realistic amount of work for the sprint.  
 
-As the project progresses, the backlog continues to evolve. The team might break down complex features into smaller, more manageable stories, add details to high-priority items as they come closer to being worked on, and continually reassess and reprioritize the backlog items based on feedback and changing business objectives.
+As the project progresses, the backlog continues to evolve. The team might break down complex features into smaller, more manageable stories, add details to high-priority items as they come closer to being worked on, and continually reassess and reprioritize the backlog items based on feedback and changing business objectives.  
 
 In this way, BookNest's product backlog, guided by the DEEP principles, remains a living document, aiding the team in maintaining focus on delivering the most valuable features to their users while being flexible to adapt to new information and changes in the market.
 
 
-# definition of ready for user stories
+## definition of ready for user stories
 The "Definition of Ready" for user stories is a crucial concept in Agile methodologies. It refers to a predefined set of criteria that a user story must meet before it can be considered ready to be worked on in a sprint. This ensures that the story is clear, well-understood, and actionable for the development team.
 
 ## Key Criteria in the Definition of Ready
@@ -538,14 +538,14 @@ Benefit: Testability allows for objective validation of the story’s implementa
 ### Example of an INVEST-Compliant User Story
 Let's take an example in the context of a website development project:
 
-User Story: “As an online shopper, I want to filter products by category so that I can easily find items I'm interested in.”
-Independent: This story stands alone without relying on other stories.
-Negotiable: The specifics of how filtering works can be discussed and refined.
-Valuable: This feature provides clear value to the online shopper.
-Estimable: The development team can estimate the effort based on known technologies for implementing filters.
-Small: The scope of the story is limited to adding a filter feature, which is manageable in a single sprint.
-Testable: It’s testable through criteria like “Filter options are visible”, “Items are correctly filtered based on selected categories”.
-By following the INVEST criteria, Agile teams can create well-defined and manageable user stories, leading to more efficient and successful product development cycles.
+- User Story: “As an online shopper, I want to filter products by category so that I can easily find items I'm interested in.”
+- Independent: This story stands alone without relying on other stories.
+- Negotiable: The specifics of how filtering works can be discussed and refined.
+- Valuable: This feature provides clear value to the online shopper.
+- Estimable: The development team can estimate the effort based on known technologies for implementing filters.
+- Small: The scope of the story is limited to adding a filter feature, which is manageable in a single sprint.
+- vTestable: It’s testable through criteria like “Filter options are visible”, “Items are correctly filtered based on selected categories”.
+> By following the INVEST criteria, Agile teams can create well-defined and manageable user stories, leading to more efficient and successful product development cycles.
 
 
 ## how to map US to a business process diagram
@@ -572,11 +572,11 @@ Continual Refinement: As user stories are developed and the project progresses, 
 ### Example
 Imagine you are developing an e-commerce website. One of the key business processes is 'Order Fulfillment.' User stories might include:
 
-US1: “As a user, I want to add items to my cart so that I can purchase multiple items at once.”
-US2: “As a customer, I want to track my order status so that I know when to expect delivery.”
-In the business process diagram for order fulfillment, you would map US1 to the ‘Add to Cart’ step and US2 to the ‘Order Shipping’ phase. This mapping helps visualize how these user stories integrate into and impact the overall business process.
+- US1: “As a user, I want to add items to my cart so that I can purchase multiple items at once.”
+- US2: “As a customer, I want to track my order status so that I know when to expect delivery.”
+> In the business process diagram for order fulfillment, you would map US1 to the ‘Add to Cart’ step and US2 to the ‘Order Shipping’ phase. This mapping helps visualize how these user stories integrate into and impact the overall business process.
 
-By mapping user stories to business process diagrams, teams can ensure that their Agile development efforts are closely aligned with broader business processes, leading to more effective and cohesive product development.
+> By mapping user stories to business process diagrams, teams can ensure that their Agile development efforts are closely aligned with broader business processes, leading to more effective and cohesive product development.
 
 
 ## how to validate business context and value
@@ -611,42 +611,42 @@ Regular Review: Regularly review these metrics against expected outcomes to ensu
 ### Example
 Imagine you are proposing a new customer relationship management (CRM) system for a sales organization.
 
-You validate the business context by showing how the new system aligns with the company’s goal of improving sales efficiency.
-The value is defined in terms of increased sales conversions and customer retention rates.
-Assumptions about these benefits are tested through a pilot program with a small sales team.
-A cost-benefit analysis shows a positive return on investment over a two-year period.
-The proposal is adjusted based on feedback from the pilot and then presented to stakeholders for final approval.
-By systematically validating the business context and value, you ensure that the project is not only feasible and aligned with business goals but also positioned to deliver measurable benefits.
+- You validate the business context by showing how the new system aligns with the company’s goal of improving sales efficiency.
+- The value is defined in terms of increased sales conversions and customer retention rates.
+- Assumptions about these benefits are tested through a pilot program with a small sales team.
+- A cost-benefit analysis shows a positive return on investment over a two-year period.
+- The proposal is adjusted based on feedback from the pilot and then presented to stakeholders for final approval.
+- By systematically validating the business context and value, you ensure that the project is not only feasible and aligned with business -goals but also positioned to deliver measurable benefits.
 
 ##  MoSCoW
 > The MoSCoW method is a prioritization technique used in project management, particularly within Agile frameworks, to reach a common understanding with stakeholders on the importance of each requirement. The acronym MoSCoW stands for Must have, Should have, Could have, and Won't have. This method helps teams to prioritize tasks and features based on their importance and urgency, ensuring that critical functionalities are delivered first. Let’s break down each category:
 
 ### 1. Must Have
-Definition: These are non-negotiable requirements that the project needs to be successful. Without these, the project is considered a failure.
-Characteristics: They are critical to the current delivery timebox and must be included in the final product.
-Example: For an e-commerce website, a secure payment system is a 'Must Have' feature.
+- Definition: These are non-negotiable requirements that the project needs to be successful. Without these, the project is considered a failure.
+- Characteristics: They are critical to the current delivery timebox and must be included in the final product.
+- Example: For an e-commerce website, a secure payment system is a 'Must Have' feature.
 ### 2. Should Have
-Definition: These are important but not vital requirements. They are high-priority items that should be included in the product if it is possible.
-Characteristics: They are not critical for launch but are considered to be part of the core functionality. They can be delayed but are still required.
-Example: In the same e-commerce website, a user review and rating system might be classified as 'Should Have'.
+- Definition: These are important but not vital requirements. They are high-priority items that should be included in the product if it is possible.
+- Characteristics: They are not critical for launch but are considered to be part of the core functionality. They can be delayed but are still required.
+- Example: In the same e-commerce website, a user review and rating system might be classified as 'Should Have'.
 ### 3. Could Have
-Definition: These are desirable but not necessary requirements. They are the lower-priority items that are nice to have if there is sufficient time and resources.
-Characteristics: They are less critical and often seen as enhancements or refinements that could improve user experience but are not essential.
-Example: For the e-commerce website, an integrated chat support system could be a 'Could Have' feature.
+- Definition: These are desirable but not necessary requirements. They are the lower-priority items that are nice to have if there is sufficient time and resources.
+- Characteristics: They are less critical and often seen as enhancements or refinements that could improve user experience but are not essential.
+- Example: For the e-commerce website, an integrated chat support system could be a 'Could Have' feature.
 ### 4. Won't Have (this time)
-Definition: These are the least critical, lowest-payback items, or not appropriate at this time.
-Characteristics: These are items that are explicitly excluded from the current scope but might be reconsidered in the future.
-Example: Implementing a virtual reality shopping experience might be a 'Won't Have' for the current version of the e-commerce website.
+- Definition: These are the least critical, lowest-payback items, or not appropriate at this time.
+- Characteristics: These are items that are explicitly excluded from the current scope but might be reconsidered in the future.
+- Example: Implementing a virtual reality shopping experience might be a 'Won't Have' for the current version of the e-commerce website.
 #### Application in Project Management
 The MoSCoW method is often used during the planning phase of a project to facilitate discussion among stakeholders and team members. It helps in:
 
-Setting Clear Expectations: Ensures everyone understands what is essential for the project and what can be deferred.
-Managing Scope: Helps in controlling the project scope and preventing scope creep.
-Facilitating Decision Making: Provides a framework for making trade-offs between different functionalities based on their priority.
-Example Scenario
-In a software development project, the team gathers with stakeholders to prioritize features for the next release. They go through each proposed feature and classify them into the MoSCoW categories. This results in a clear understanding of which features must be completed first (Must Haves), which should be included if possible (Should Haves), and which are optional (Could Haves). It also clarifies what will not be worked on in this release (Won't Haves), setting realistic expectations and aligning the team's efforts with the project's goals.
+- Setting Clear Expectations: Ensures everyone understands what is essential for the project and what can be deferred.
+- Managing Scope: Helps in controlling the project scope and preventing scope creep.
+- Facilitating Decision Making: Provides a framework for making trade-offs between different functionalities based on their priority.
+### Example Scenario
+> In a software development project, the team gathers with stakeholders to prioritize features for the next release. They go through each proposed feature and classify them into the MoSCoW categories. This results in a clear understanding of which features must be completed first (Must Haves), which should be included if possible (Should Haves), and which are optional (Could Haves). It also clarifies what will not be worked on in this release (Won't Haves), setting realistic expectations and aligning the team's efforts with the project's goals.
 
-By effectively applying the MoSCoW method, teams can prioritize work more effectively, ensuring that the most critical aspects of a project are delivered on time and within scope.
+> By effectively applying the MoSCoW method, teams can prioritize work more effectively, ensuring that the most critical aspects of a project are delivered on time and within scope.
 
 ## acceptance criteria  (functional and non-functional)
 > Acceptance criteria are conditions that a software product must meet to be accepted by a user, a customer, or other system. They are a set of statements, each with a clear pass/fail result, that specify both functional and non-functional requirements. These criteria help to define the scope of a user story or feature and ensure that all stakeholders have a common understanding of what the product should do and how it should perform.
@@ -654,17 +654,17 @@ By effectively applying the MoSCoW method, teams can prioritize work more effect
 ### Functional Acceptance Criteria
 Functional acceptance criteria specify actions or functions that a system or feature must be able to perform. They are directly related to the behavior of the system - what the system does.
 
-Example: For an e-commerce website, a functional acceptance criterion might be: "When a user selects a product and adds it to their cart, the system should display the item in the cart with the correct quantity and price."
+### Example: For an e-commerce website, a functional acceptance criterion might be: "When a user selects a product and adds it to their cart, the system should display the item in the cart with the correct quantity and price."
 ### Non-Functional Acceptance Criteria
 Non-functional acceptance criteria, on the other hand, define the operational aspects of a system - how the system performs its functions. They often relate to performance, usability, reliability, security, and other quality attributes.
 
-Example: A non-functional acceptance criterion for the same e-commerce website could be: "The product page should load within 2 seconds under normal network conditions."
-Characteristics of Good Acceptance Criteria
-Clear and Concise: Should be easily understandable and not open to interpretation.
-Testable: Each criterion should have a clear pass/fail outcome and be verifiable.
-Relevant: Directly related to the user story or feature they are defining.
-Achievable: Realistic and possible to implement within the current constraints.
-Specific: Provide enough detail to guide development and testing.
+### Example: A non-functional acceptance criterion for the same e-commerce website could be: "The product page should load within 2 seconds under normal network conditions."
+#### Characteristics of Good Acceptance Criteria
+- Clear and Concise: Should be easily understandable and not open to interpretation.
+- Testable: Each criterion should have a clear pass/fail outcome and be verifiable.
+- Relevant: Directly related to the user story or feature they are defining.
+- Achievable: Realistic and possible to implement within the current constraints.
+- Specific: Provide enough detail to guide development and testing.
 ### Importance in Agile Development
 In Agile methodologies, acceptance criteria are an integral part of user stories. They help to ensure that all team members understand what is expected of the feature being developed. During the sprint, developers use these criteria to guide their work and testers use them to verify that the feature meets the required standards before it is marked as 'done'.
 
@@ -676,92 +676,91 @@ In Agile methodologies, acceptance criteria are an integral part of user stories
 ### User Story
 "As a website visitor, I want to be able to create an account so that I can save my preferences and order history."
 
-### Functional Acceptance Criteria
-Account Creation Process:
+## Functional Acceptance Criteria
+- Account Creation Process:
 
 When the visitor fills out and submits the registration form with their name, email, and password, an account should be created.
 The system must verify that the email address is not already associated with an existing account.
-Email Verification:
+- Email Verification:
 
 After submitting the registration form, the user should receive an email with a verification link.
 The account should be activated only after the user clicks the verification link.
-Password Requirements:
+- Password Requirements:
 
 The system should enforce a minimum password length of 8 characters and require at least one number and one special character.
-Error Handling:
+- Error Handling:
 
 If the registration form is submitted with invalid data (e.g., missing required fields, weak password), the system should display appropriate error messages.
-Non-Functional Acceptance Criteria
-Performance:
+## Non-Functional Acceptance Criteria
+- Performance:
 
 The registration page should load within 3 seconds under normal network conditions.
-Usability:
+- Usability:
 
 The registration form should be accessible on both desktop and mobile platforms, adapting its layout to different screen sizes.
 The form should be clear and user-friendly, with labels for each field and a visible submit button.
-Security:
+- Security:
 
 User passwords should be encrypted in the database.
 The system must implement secure communication protocols (HTTPS) for data transmission during the registration process.
-Compatibility:
+- Compatibility:
 
 The registration feature should be compatible with the latest versions of major browsers like Chrome, Firefox, Safari, and Edge.
-In this example, the functional acceptance criteria are focused on how the user registration process should work from a user's perspective, detailing the steps and outcomes of the registration process. The non-functional acceptance criteria, on the other hand, define the quality attributes such as performance, usability, security, and compatibility, ensuring that the registration feature not only works correctly but also meets the expected standards of user experience and safety.
+> In this example, the functional acceptance criteria are focused on how the user registration process should work from a user's perspective, detailing the steps and outcomes of the registration process. The non-functional acceptance criteria, on the other hand, define the quality attributes such as performance, usability, security, and compatibility, ensuring that the registration feature not only works correctly but also meets the expected standards of user experience and safety.
 
-User
-show me a eg of a complete user story contain all the features - like INVEST priciple, mapped with business process diagram, business context and value,  MoSCoW, acceptance critiera, wireframe, with test data and title. 
-ChatGPT
+
+# eg US
 Creating a complete user story that encompasses all these aspects is a comprehensive task, and due to the limitation of text format, I'll provide a summarized example. Let's consider a hypothetical project for an online grocery store, focusing on a specific user story related to online ordering.
 
-User Story Title
+### User Story Title
 "Online Grocery Ordering System"
 
-User Story (Following INVEST Principles)
+### User Story (Following INVEST Principles)
 "As a busy working professional, I want to order groceries online so that I can save time and easily receive my groceries at my convenience."
 
-Mapped with Business Process Diagram
-Business Process: "Customer Places Order"
-Starts with customer logging in.
-Browsing items.
-Adding items to cart.
-Checking out.
-Receiving order confirmation.
-Business Context and Value
-Context: Enhancing customer experience and adapting to digital shopping trends.
-Value: Increase in sales due to convenience, attracting busy professionals, and reducing in-store crowding.
-MoSCoW Prioritization
-Must Have: Secure login, search functionality, add to cart, and checkout process.
-Should Have: Order tracking system.
-Could Have: Product recommendations based on shopping history.
-Won't Have: Virtual reality interface for shopping.
-Acceptance Criteria
-Functional:
-User must be able to create an account and log in.
-Each product should have an 'Add to Cart' option.
-The checkout process should include address selection, delivery time slot, and payment method.
-Non-Functional:
-The website should load within 3 seconds.
-The ordering system should be accessible on both desktop and mobile devices.
-Wireframe
-Homepage with login, search bar, product categories.
-Product page with details and 'Add to Cart' button.
-Cart page showing selected items, total price, and checkout button.
-Checkout page for address, delivery time, and payment.
-Test Data
-User Account: testuser@example.com, Password: Test@1234
-Sample Product: Apples, Quantity: 5, Price: $3.00
-Delivery Address: 123 Test Street, Test City
-Payment Method: Test Credit Card, 1234-5678-9012-3456, Expiry: 12/24
-User Story Summary
-This user story encapsulates all key elements:
+## Mapped with Business Process Diagram
+### Business Process: "Customer Places Order"
+- Starts with customer logging in.
+- Browsing items.
+- Adding items to cart.
+- Checking out.
+- Receiving order confirmation.
+### Business Context and Value
+- Context: Enhancing customer experience and adapting to digital shopping trends.
+- Value: Increase in sales due to convenience, attracting busy professionals, and reducing in-store crowding.
+### MoSCoW Prioritization
+- Must Have: Secure login, search functionality, add to cart, and checkout process.
+- Should Have: Order tracking system.
+- Could Have: Product recommendations based on shopping history.
+- Won't Have: Virtual reality interface for shopping.
+### Acceptance Criteria
+#### Functional:
+- User must be able to create an account and log in.
+- Each product should have an 'Add to Cart' option.
+- The checkout process should include address selection, delivery time slot, and payment method.
+#### Non-Functional:
+- The website should load within 3 seconds.
+- The ordering system should be accessible on both desktop and mobile devices.
+#### Wireframe
+- Homepage with login, search bar, product categories.
+- Product page with details and 'Add to Cart' button.
+- Cart page showing selected items, total price, and checkout button.
+- Checkout page for address, delivery time, and payment.
+#### Test Data
+- User Account: testuser@example.com, Password: Test@1234
+- Sample Product: Apples, Quantity: 5, Price: $3.00
+- Delivery Address: 123 Test Street, Test City
+- Payment Method: Test Credit Card, 1234-5678-9012-3456, Expiry: 12/24
+#### User Story Summary
+- This user story encapsulates all key elements:
 
-INVEST: The story is Independent, Negotiable, Valuable, Estimable, Small, and Testable.
-Business Process Diagram: The story is mapped to the customer's online ordering process.
-Business Context and Value: Aligns with the goal of enhancing digital sales and customer convenience.
-MoSCoW: Prioritizes features essential for the online ordering system.
-Acceptance Criteria: Defines what constitutes a successful implementation, both functionally and non-functionally.
-Wireframe and Test Data: Provides a visual guide and sample data for testing the implemented feature.
-This comprehensive approach ensures that the user story is well-defined, aligns with business objectives, and is primed for successful implementation.
+#### INVEST: The story is Independent, Negotiable, Valuable, Estimable, Small, and Testable.
+#### Business Process Diagram: The story is mapped to the customer's online ordering process.
+#### Business Context and Value: Aligns with the goal of enhancing digital sales and customer convenience.
+#### MoSCoW: Prioritizes features essential for the online ordering system.
+#### Acceptance Criteria: Defines what constitutes a successful implementation, both functionally and non-functionally.
+#### Wireframe and Test Data: Provides a visual guide and sample data for testing the implemented feature.
+> This comprehensive approach ensures that the user story is well-defined, aligns with business objectives, and is primed for successful implementation.
 
 
 # explain, As a__ I want to __ so that___
@@ -803,31 +802,31 @@ Writing user stories for an API that interacts with a database, such as returnin
 - Be Clear and Specific: Technical stories need to be precise in terms of what the API should accomplish, including inputs, outputs, and any rules or constraints.
 
 ### Example User Stories for an API
-1. API Returning a Value from the Database
-User Story: "As a front-end application, I want to retrieve the current price of a product using the Product API so that I can display the most up-to-date prices to the customer."
+#### 1. API Returning a Value from the Database
+- User Story: "As a front-end application, I want to retrieve the current price of a product using the Product API so that I can display the most up-to-date prices to the customer."
 
-### Acceptance Criteria:
+- Acceptance Criteria:
 When the Product API is called with a valid product ID, it should return the current price of the product.
 If a product ID does not exist, the API should return an appropriate error message.
 The response should be received within 2 seconds under normal conditions.
-2. API Updating a Value in the Database
-User Story: "As the inventory management system, I want to update the stock level of a product using the Stock API so that the inventory is always current."
+#### 2. API Updating a Value in the Database
+- User Story: "As the inventory management system, I want to update the stock level of a product using the Stock API so that the inventory is always current."
 
-### Acceptance Criteria:
+- Acceptance Criteria:
 When the Stock API is called with a product ID and a new stock level, the stock level of the product should be updated in the database.
-If the update is successful, the API should return a confirmation message.
-If the product ID does not exist, the API should return an error message.
-The API should handle concurrency issues appropriately.
-3. API Adding a New Value to the Database
-User Story: "As a user registration service, I want to add new user details to the database using the User API so that new users can be onboarded to the platform."
+If the update is successful, the API should return a confirmation message.  
+If the product ID does not exist, the API should return an error message.  
+The API should handle concurrency issues appropriately.  
+#### 3. API Adding a New Value to the Database
+- User Story: "As a user registration service, I want to add new user details to the database using the User API so that new users can be onboarded to the platform."
 
-### Acceptance Criteria:
-When the User API is called with a new user's details, those details should be added to the user database.
-The API should validate the data format (e.g., email address format) before insertion.
-The API should return a success message with a unique user ID upon successful addition.
-In case of duplicate email addresses, the API should return an appropriate error message.
-Writing Technical User Stories
-These examples demonstrate how to write user stories for an API from the perspective of the system or service using the API. The focus remains on delivering value and clear outcomes, with acceptance criteria detailing the specific requirements and behaviors expected from the API.
+- Acceptance Criteria:
+When the User API is called with a new user's details, those details should be added to the user database. 
+The API should validate the data format (e.g., email address format) before insertion.  
+The API should return a success message with a unique user ID upon successful addition.  
+In case of duplicate email addresses, the API should return an appropriate error message.  
+### Writing Technical User Stories
+> These examples demonstrate how to write user stories for an API from the perspective of the system or service using the API. The focus remains on delivering value and clear outcomes, with acceptance criteria detailing the specific requirements and behaviors expected from the API.
 
 
 # how to write Technical User Stories
